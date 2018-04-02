@@ -10,31 +10,125 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     72158,       1611]
-NotebookOptionsPosition[     71647,       1589]
-NotebookOutlinePosition[     71988,       1604]
-CellTagsIndexPosition[     71945,       1601]
+NotebookDataLength[     77009,       1749]
+NotebookOptionsPosition[     76363,       1724]
+NotebookOutlinePosition[     76704,       1739]
+CellTagsIndexPosition[     76661,       1736]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"\[Theta]i", " ", "=", " ", "45"}]], "Input",
  CellChangeTimes->{{3.7316938156511497`*^9, 3.731693825825119*^9}}],
 
-Cell[BoxData["45"], "Output",
- CellChangeTimes->{3.73169383137156*^9, 3.7316940365324574`*^9, 
-  3.731694143659129*^9}]
-}, Open  ]],
+Cell[BoxData[{"45", "\[IndentingNewLine]", "Dynamic"}], "Input",
+ CellChangeTimes->{{3.7316954233993044`*^9, 3.7316954251648903`*^9}}],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[{
- RowBox[{"Button", "[", 
-  RowBox[{"\"\<Jupiter\>\"", ",", 
-   RowBox[{"gi", " ", "=", " ", "4.5"}]}], "]"}], "\n", 
+ RowBox[{
+  RowBox[{"g", "=", "9.8"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"drag", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ground", "=", "Green"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"background", " ", "=", " ", "Blue"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Row", "[", 
+  RowBox[{
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Mercury\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", 
+        RowBox[{"9.8", "*", ".38"}]}], ",", 
+       RowBox[{"ground", " ", "=", " ", "Red"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Venus\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", "8.87"}], ",", 
+       RowBox[{"ground", " ", "=", " ", "Green"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Earth\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", "9.98"}], ",", 
+       RowBox[{"ground", " ", "=", " ", "LightGreen"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Mars\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", 
+        RowBox[{"9.98", "*", ".376"}]}], ",", 
+       RowBox[{"ground", " ", "=", " ", "Red"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Jupiter\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", 
+        RowBox[{"9.8", "*", "2.53"}]}], ",", 
+       RowBox[{"ground", " ", "=", " ", "Gray"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Saturn\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", 
+        RowBox[{"9.8", "*", "1.07"}]}], ",", 
+       RowBox[{"ground", " ", "=", " ", "Orange"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Uranus\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", 
+        RowBox[{"9.8", "*", ".89"}]}], ",", 
+       RowBox[{"ground", " ", "=", "Cyan"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Neptune\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", 
+        RowBox[{"9.8", "*", "1.14"}]}], ",", 
+       RowBox[{"ground", " ", "=", " ", "Blue"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Pluto\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", 
+        RowBox[{"9.8", "*", ".067"}]}], ",", 
+       RowBox[{"ground", " ", "=", " ", "Gray"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Button", "[", 
+    RowBox[{"\"\<Moon\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"g", "=", 
+        RowBox[{"9.8", "*", ".1654"}]}], ",", 
+       RowBox[{"ground", " ", "=", " ", "Gray"}], ",", 
+       RowBox[{"background", " ", "=", " ", "Black"}]}], "}"}]}], "]"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Dynamic", "[", 
+  RowBox[{"{", 
+   RowBox[{"g", ",", "ground", ",", " ", "background"}], "}"}], "]"}], "\n", 
  RowBox[{"Manipulate", "[", 
   RowBox[{
    RowBox[{"Module", "[", 
@@ -536,8 +630,9 @@ Cell[BoxData[{
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
-      RowBox[{"\[Theta]", ",", "45", ",", "\"\<Initial Angle\>\""}], "}"}], 
-     ",", "10.", ",", "90.", ",", 
+      RowBox[{
+      "\[Theta]", ",", "\[Theta]i", " ", ",", "\"\<Initial Angle\>\""}], 
+      "}"}], ",", "10.", ",", "90.", ",", 
      RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
    RowBox[{"{", 
     RowBox[{
@@ -603,36 +698,38 @@ Cell[BoxData[{
      RowBox[{"\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", "end"}], 
      "}"}]}]}], "]"}], "\n"}], "Input",
  CellChangeTimes->{{3.7316939541535177`*^9, 3.731693984439629*^9}, {
-  3.731694020651013*^9, 3.7316940248677816`*^9}, {3.731694277217368*^9, 
-  3.7316943700299263`*^9}}],
+   3.731694020651013*^9, 3.7316940248677816`*^9}, {3.731694277217368*^9, 
+   3.7316943700299263`*^9}, {3.7316950625666847`*^9, 3.731695071117362*^9}, {
+   3.731695106265608*^9, 3.7316951101597614`*^9}, 3.7316972800912657`*^9}],
 
 Cell[BoxData[
  ButtonBox["\<\"Jupiter\"\>",
   Appearance->Automatic,
-  ButtonFunction:>($CellContext`gi = 4.5),
+  ButtonFunction:>($CellContext`\[Theta]i = 51),
   Evaluator->Automatic,
   Method->"Preemptive"]], "Output",
  CellChangeTimes->{
   3.7316919899341326`*^9, 3.7316936078239484`*^9, 3.7316937595569067`*^9, {
    3.7316938340641775`*^9, 3.7316938444625287`*^9}, 3.7316939916607313`*^9, {
    3.7316940264528074`*^9, 3.7316940463435144`*^9}, {3.731694147033231*^9, 
-   3.7316941536048*^9}, 3.731694330707779*^9}],
+   3.7316941536048*^9}, 3.731694330707779*^9, {3.7316950440063925`*^9, 
+   3.731695131520897*^9}}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`bs$$ = 2, $CellContext`end$$ = 
-    0.001, $CellContext`g$$ = Rational[128, 3], $CellContext`h$$ = 
-    0, $CellContext`m$$ = 10, $CellContext`traj$$ = False, $CellContext`v$$ = 
-    40, $CellContext`\[Theta]$$ = 45, $CellContext`\[Kappa]$$ = 0, 
+    0.001, $CellContext`g$$ = 4.5, $CellContext`h$$ = 0, $CellContext`m$$ = 
+    10, $CellContext`traj$$ = False, $CellContext`v$$ = 
+    40, $CellContext`\[Theta]$$ = 51, $CellContext`\[Kappa]$$ = 0, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`v$$], 40, "Initial Velocity"}, 1, 100}, {{
-       Hold[$CellContext`\[Theta]$$], 45, "Initial Angle"}, 10., 90.}, {{
+       Hold[$CellContext`\[Theta]$$], 51, "Initial Angle"}, 10., 90.}, {{
        Hold[$CellContext`h$$], 0, "Initial Height"}, 0, 20}, {{
        Hold[$CellContext`m$$], 10, "Mass"}, 0.001, 50}, {{
-       Hold[$CellContext`g$$], $CellContext`gi, "Gravity"}, 3, 20}, {{
+       Hold[$CellContext`g$$], 4.5, "Gravity"}, 3, 20}, {{
        Hold[$CellContext`\[Kappa]$$], 0, "Drag Coefficient"}, 0, 1}, {{
        Hold[$CellContext`bs$$], 2, "Ball Radius"}, 0.05, 3, 0.01}, {{
        Hold[$CellContext`end$$], 0.001, "Time"}, 0.001, 
@@ -643,27 +740,27 @@ Cell[BoxData[
       Hold[
        Spacer[380]], Manipulate`Dump`ThisIsNotAControl}}, Typeset`size$$ = {
     700., {281., 253.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False, $CellContext`v$203418$$ = 
-    0, $CellContext`\[Theta]$203419$$ = 0, $CellContext`h$203420$$ = 
-    0, $CellContext`m$203421$$ = 0, $CellContext`g$203422$$ = 
-    0, $CellContext`\[Kappa]$203423$$ = 0, $CellContext`bs$203424$$ = 
-    0, $CellContext`end$203425$$ = 0, $CellContext`traj$203426$$ = False}, 
+    Typeset`skipInitDone$$ = False, $CellContext`v$17215$$ = 
+    0, $CellContext`\[Theta]$17216$$ = 0, $CellContext`h$17217$$ = 
+    0, $CellContext`m$17218$$ = 0, $CellContext`g$17219$$ = 
+    0, $CellContext`\[Kappa]$17220$$ = 0, $CellContext`bs$17221$$ = 
+    0, $CellContext`end$17222$$ = 0, $CellContext`traj$17223$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`bs$$ = 2, $CellContext`end$$ = 
-        0.001, $CellContext`g$$ = $CellContext`gi, $CellContext`h$$ = 
-        0, $CellContext`m$$ = 10, $CellContext`traj$$ = 
-        False, $CellContext`v$$ = 40, $CellContext`\[Theta]$$ = 
-        45, $CellContext`\[Kappa]$$ = 0}, "ControllerVariables" :> {
-        Hold[$CellContext`v$$, $CellContext`v$203418$$, 0], 
-        Hold[$CellContext`\[Theta]$$, $CellContext`\[Theta]$203419$$, 0], 
-        Hold[$CellContext`h$$, $CellContext`h$203420$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$203421$$, 0], 
-        Hold[$CellContext`g$$, $CellContext`g$203422$$, 0], 
-        Hold[$CellContext`\[Kappa]$$, $CellContext`\[Kappa]$203423$$, 0], 
-        Hold[$CellContext`bs$$, $CellContext`bs$203424$$, 0], 
-        Hold[$CellContext`end$$, $CellContext`end$203425$$, 0], 
-        Hold[$CellContext`traj$$, $CellContext`traj$203426$$, False]}, 
+        0.001, $CellContext`g$$ = 4.5, $CellContext`h$$ = 0, $CellContext`m$$ = 
+        10, $CellContext`traj$$ = False, $CellContext`v$$ = 
+        40, $CellContext`\[Theta]$$ = 51, $CellContext`\[Kappa]$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`v$$, $CellContext`v$17215$$, 0], 
+        Hold[$CellContext`\[Theta]$$, $CellContext`\[Theta]$17216$$, 0], 
+        Hold[$CellContext`h$$, $CellContext`h$17217$$, 0], 
+        Hold[$CellContext`m$$, $CellContext`m$17218$$, 0], 
+        Hold[$CellContext`g$$, $CellContext`g$17219$$, 0], 
+        Hold[$CellContext`\[Kappa]$$, $CellContext`\[Kappa]$17220$$, 0], 
+        Hold[$CellContext`bs$$, $CellContext`bs$17221$$, 0], 
+        Hold[$CellContext`end$$, $CellContext`end$17222$$, 0], 
+        Hold[$CellContext`traj$$, $CellContext`traj$17223$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -674,13 +771,13 @@ $CellContext`eqns$, $CellContext`t$, $CellContext`xmax$, $CellContext`ymax$}, \
 $CellContext`eqns$ = {
           Derivative[
             2][$CellContext`x$][$CellContext`t$] == \
-((-($CellContext`\[Kappa]$$/(2 $CellContext`m$$))) $CellContext`bs$$^2) 
+(-($CellContext`\[Kappa]$$/(2 $CellContext`m$$))) $CellContext`bs$$^2 
             Derivative[1][$CellContext`x$][$CellContext`t$]^2, 
            Derivative[1][$CellContext`x$][0] == $CellContext`v$$ 
             Cos[$CellContext`\[Theta]$$ Degree], $CellContext`x$[0] == 0, 
            Derivative[
             2][$CellContext`y$][$CellContext`t$] == -$CellContext`g$$ - \
-(($CellContext`\[Kappa]$$/(2 $CellContext`m$$)) $CellContext`bs$$^2) 
+($CellContext`\[Kappa]$$/(2 $CellContext`m$$)) $CellContext`bs$$^2 
             Derivative[1][$CellContext`y$][$CellContext`t$]^2, 
            Derivative[1][$CellContext`y$][0] == $CellContext`v$$ 
             Sin[$CellContext`\[Theta]$$ Degree], $CellContext`y$[
@@ -715,14 +812,14 @@ $CellContext`tf/2}]]]; $CellContext`xmax$ = ReplaceAll[
               Min[$CellContext`tf, $CellContext`end$$]}, AxesOrigin -> {0, 0},
               ImageSize -> {700, 500}, 
              PlotRange -> {{(-3) 
-                Max[((0.007 $CellContext`xmax$) $CellContext`bs$$) 
-                  1.5, ((0.01 $CellContext`ymax$) $CellContext`bs$$) 1.5], 
-                
-                Max[((0.007 $CellContext`xmax$) $CellContext`bs$$) 
-                 4, ((0.01 $CellContext`ymax$) $CellContext`bs$$) 4, 
+                Max[0.007 $CellContext`xmax$ $CellContext`bs$$ 1.5, 
+                  0.01 $CellContext`ymax$ $CellContext`bs$$ 1.5], 
+                Max[
+                0.007 $CellContext`xmax$ $CellContext`bs$$ 4, 
+                 0.01 $CellContext`ymax$ $CellContext`bs$$ 4, 
                  1.1 $CellContext`xmax$]}, {(-2) 
-                Max[((0.007 $CellContext`xmax$) $CellContext`bs$$) 
-                  1.5, ((0.01 $CellContext`ymax$) $CellContext`bs$$) 1.5], 
+                Max[0.007 $CellContext`xmax$ $CellContext`bs$$ 1.5, 
+                  0.01 $CellContext`ymax$ $CellContext`bs$$ 1.5], 
                 1.5 $CellContext`ymax$}}, AxesLabel -> {
                Style["x(t)", Italic, Bold, "Label"], 
                Style["y(t)", Italic, Bold, "Label"]}, ImagePadding -> 30], 
@@ -743,14 +840,14 @@ $CellContext`tf/2}]]]; $CellContext`xmax$ = ReplaceAll[
               Min[$CellContext`tf, $CellContext`end$$]}, AxesOrigin -> {0, 0},
               ImageSize -> {650, 500}, 
              PlotRange -> {{(-3) 
-                Max[((0.007 $CellContext`xmax$) $CellContext`bs$$) 
-                  1.5, ((0.01 $CellContext`ymax$) $CellContext`bs$$) 1.5], 
-                
-                Max[((0.007 $CellContext`xmax$) $CellContext`bs$$) 
-                 4, ((0.01 $CellContext`ymax$) $CellContext`bs$$) 4, 
+                Max[0.007 $CellContext`xmax$ $CellContext`bs$$ 1.5, 
+                  0.01 $CellContext`ymax$ $CellContext`bs$$ 1.5], 
+                Max[
+                0.007 $CellContext`xmax$ $CellContext`bs$$ 4, 
+                 0.01 $CellContext`ymax$ $CellContext`bs$$ 4, 
                  1.1 $CellContext`xmax$]}, {(-2) 
-                Max[((0.007 $CellContext`xmax$) $CellContext`bs$$) 
-                  1.5, ((0.01 $CellContext`ymax$) $CellContext`bs$$) 1.5], 
+                Max[0.007 $CellContext`xmax$ $CellContext`bs$$ 1.5, 
+                  0.01 $CellContext`ymax$ $CellContext`bs$$ 1.5], 
                 1.5 $CellContext`ymax$}}, AxesLabel -> {
                Style["x(t)", Italic, Bold, "Label"], 
                Style["y(t)", Italic, Bold, "Label"]}, ImagePadding -> 30, 
@@ -765,40 +862,40 @@ $CellContext`tf/2}]]]; $CellContext`xmax$ = ReplaceAll[
                   
                   Min[$CellContext`tf, $CellContext`end$$]]}, \
 $CellContext`soln$], {
-                
-                Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                  0.01 $CellContext`ymax$) $CellContext`bs$$], 
-                
-                Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                  0.01 $CellContext`ymax$) $CellContext`bs$$]}]}], 
+                Max[
+                0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                 0.01 $CellContext`ymax$ $CellContext`bs$$], 
+                Max[
+                0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                 0.01 $CellContext`ymax$ $CellContext`bs$$]}]}], 
             Graphics[{Black, 
               Disk[{0, $CellContext`h$$}, {
-                
-                Max[((0.007 $CellContext`xmax$) $CellContext`bs$$) 
-                 1.5, ((0.01 $CellContext`ymax$) $CellContext`bs$$) 1.5], 
-                
-                Max[((0.007 $CellContext`xmax$) $CellContext`bs$$) 
-                 1.5, ((0.01 $CellContext`ymax$) $CellContext`bs$$) 1.5]}]}], 
+                Max[
+                0.007 $CellContext`xmax$ $CellContext`bs$$ 1.5, 
+                 0.01 $CellContext`ymax$ $CellContext`bs$$ 1.5], 
+                Max[
+                0.007 $CellContext`xmax$ $CellContext`bs$$ 1.5, 
+                 0.01 $CellContext`ymax$ $CellContext`bs$$ 1.5]}]}], 
             Graphics[{Black, 
               Rotate[
                
                Rectangle[{
                 0, $CellContext`h$$ - 1.5 
-                 Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                    0.01 $CellContext`ymax$) $CellContext`bs$$]}, 
-                Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                    0.01 $CellContext`ymax$) $CellContext`bs$$] {5, 1.5} + {
+                 Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                   0.01 $CellContext`ymax$ $CellContext`bs$$]}, 
+                Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                   0.01 $CellContext`ymax$ $CellContext`bs$$] {5, 1.5} + {
                  0, $CellContext`h$$}], $CellContext`\[Theta]$$ Degree, {
                0, $CellContext`h$$}]}], 
             Graphics[{
               Darker[Brown], 
               Rotate[
                Rectangle[
-               Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                    0.01 $CellContext`ymax$) $CellContext`bs$$] {-2, -1.5} + {
+               Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                   0.01 $CellContext`ymax$ $CellContext`bs$$] {-2, -1.5} + {
                  0, $CellContext`h$$}, 
-                Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                    0.01 $CellContext`ymax$) $CellContext`bs$$] {2, 0.5} + {
+                Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                   0.01 $CellContext`ymax$ $CellContext`bs$$] {2, 0.5} + {
                  0, $CellContext`h$$}], $CellContext`\[Theta]$$ Degree, {
                0, $CellContext`h$$}]}], 
             Graphics[
@@ -806,25 +903,25 @@ $CellContext`soln$], {
                Darker[Brown], 
                Rotate[
                 Rectangle[
-                Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                    0.01 $CellContext`ymax$) $CellContext`bs$$] {-0.1, 
-                   2.5} + {0, $CellContext`h$$}, 
-                 Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                    0.01 $CellContext`ymax$) $CellContext`bs$$] {
-                   0.1, -2.5} + {0, $CellContext`h$$}], Pi ($CellContext`k/4) + 
+                Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                    0.01 $CellContext`ymax$ $CellContext`bs$$] {-0.1, 2.5} + {
+                  0, $CellContext`h$$}, 
+                 Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                    0.01 $CellContext`ymax$ $CellContext`bs$$] {0.1, -2.5} + {
+                  0, $CellContext`h$$}], Pi ($CellContext`k/4) + 
                 0.1]}, {$CellContext`k, 0, 3}]], 
             Graphics[{
               Darker[Brown], 
               
               Circle[{0, $CellContext`h$$}, 2.5 
-               Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                  0.01 $CellContext`ymax$) $CellContext`bs$$]]}], 
+               Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                 0.01 $CellContext`ymax$ $CellContext`bs$$]]}], 
             Graphics[{Brown, 
               Rectangle[
-              Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                  0.01 $CellContext`ymax$) $CellContext`bs$$] {-3, -2.5}, 
-               Max[(0.007 $CellContext`xmax$) $CellContext`bs$$, (
-                   0.01 $CellContext`ymax$) $CellContext`bs$$] {2, -2.5} + {
+              Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                 0.01 $CellContext`ymax$ $CellContext`bs$$] {-3, -2.5}, 
+               Max[0.007 $CellContext`xmax$ $CellContext`bs$$, 
+                  0.01 $CellContext`ymax$ $CellContext`bs$$] {2, -2.5} + {
                 0, $CellContext`h$$}]}]}], 
           Style[
            Grid[{{"x: ", 
@@ -844,13 +941,12 @@ $CellContext`soln$], {
            "Label"]]], 
       "Specifications" :> {{{$CellContext`v$$, 40, "Initial Velocity"}, 1, 
          100, Appearance -> 
-         "Labeled"}, {{$CellContext`\[Theta]$$, 45, "Initial Angle"}, 10., 
+         "Labeled"}, {{$CellContext`\[Theta]$$, 51, "Initial Angle"}, 10., 
          90., Appearance -> 
          "Labeled"}, {{$CellContext`h$$, 0, "Initial Height"}, 0, 20, 
          Appearance -> "Labeled"}, {{$CellContext`m$$, 10, "Mass"}, 0.001, 50,
-          Appearance -> 
-         "Labeled"}, {{$CellContext`g$$, $CellContext`gi, "Gravity"}, 3, 20, 
-         Appearance -> 
+          Appearance -> "Labeled"}, {{$CellContext`g$$, 4.5, "Gravity"}, 3, 
+         20, Appearance -> 
          "Labeled"}, {{$CellContext`\[Kappa]$$, 0, "Drag Coefficient"}, 0, 1, 
          Appearance -> "Labeled"}, {{$CellContext`bs$$, 2, "Ball Radius"}, 
          0.05, 3, 0.01, Appearance -> 
@@ -866,20 +962,14 @@ $CellContext`soln$], {
         TrackedSymbols :> {$CellContext`\[Theta]$$, $CellContext`h$$, \
 $CellContext`g$$, $CellContext`\[Kappa]$$, $CellContext`end$$}}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{7597., {303., 309.}},
+     ImageSizeCache->{1133., {303., 309.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
     Initialization:>({{
-        Attributes[Derivative] = {NHoldAll, ReadProtected}, $CellContext`v$$[
-           Pattern[$CellContext`r, 
-            
-            Blank[]]] = (($CellContext`k $CellContext`Q) ($CellContext`r + \
-$CellContext`R - Abs[$CellContext`r - $CellContext`R]))/((
-           2 $CellContext`r) $CellContext`R), $CellContext`g$$ = 
-         128/3, $CellContext`tf = 
-         1.4571486776957057`, $CellContext`s = {0.025172815641993473`, 
-          0.031064504002270343`}, 
+        Attributes[Derivative] = {NHoldAll, ReadProtected}, $CellContext`tf = 
+         12.570787221089988`, $CellContext`s = {0.0282842712474618, 
+          0.02828202112892586}, 
          Attributes[PlotRange] = {ReadProtected}}; {$CellContext`tf = 
          Infinity}}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
@@ -893,7 +983,8 @@ $CellContext`R - Abs[$CellContext`r - $CellContext`R]))/((
   3.7316919899341326`*^9, 3.7316936078239484`*^9, 3.7316937595569067`*^9, {
    3.7316938340641775`*^9, 3.7316938444625287`*^9}, 3.7316939916607313`*^9, {
    3.7316940264528074`*^9, 3.7316940463435144`*^9}, {3.731694147033231*^9, 
-   3.7316941536048*^9}, 3.7316943307390623`*^9}]
+   3.7316941536048*^9}, 3.731694330707779*^9, {3.7316950440063925`*^9, 
+   3.7316951317396703`*^9}}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1585,7 +1676,51 @@ Cell[BoxData[
       "}"}]}]}], "]"}], "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->{{3.7316933592536635`*^9, 3.7316934089257946`*^9}, {
   3.731693439313002*^9, 3.731693578783634*^9}, {3.7316936312128844`*^9, 
-  3.731693764340705*^9}, {3.7316938019268684`*^9, 3.7316938029777403`*^9}}]
+  3.731693764340705*^9}, {3.7316938019268684`*^9, 3.7316938029777403`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Manipulate", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"Sin", "[", 
+        RowBox[{"k", " ", "x"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", "0", ",", 
+         RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"k", ",", "1", ",", "10"}], "}"}]}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"e", "=", "True"}], ";"}], "\n"}], "\[IndentingNewLine]", 
+ RowBox[{"Dynamic", "[", 
+  RowBox[{"If", "[", 
+   RowBox[{"e", ",", "d", ",", "\"\<\>\""}], "]"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Button", "[", 
+  RowBox[{"\"\<Manipulate On/Off\>\"", ",", 
+   RowBox[{"e", "=", 
+    RowBox[{"Not", "[", "e", "]"}]}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.731695236394374*^9, 3.7316952446186934`*^9}}],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   If[$CellContext`e, $CellContext`d, ""], StandardForm],
+  ImageSizeCache->{411., {151., 157.}}]], "Output",
+ CellChangeTimes->{{3.731695237331972*^9, 3.7316952450716295`*^9}}],
+
+Cell[BoxData[
+ ButtonBox["\<\"Manipulate On/Off\"\>",
+  Appearance->Automatic,
+  ButtonFunction:>($CellContext`e = Not[$CellContext`e]),
+  Evaluator->Automatic,
+  Method->"Preemptive"]], "Output",
+ CellChangeTimes->{{3.731695237331972*^9, 3.731695245134138*^9}}]
+}, Open  ]]
 },
 WindowSize->{1116, 938},
 WindowMargins->{{0, Automatic}, {Automatic, 9}},
@@ -1603,16 +1738,19 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 136, 2, 30, "Input"],
+Cell[697, 24, 134, 1, 50, InheritFromParent],
 Cell[CellGroupData[{
-Cell[580, 22, 136, 2, 30, "Input"],
-Cell[719, 26, 119, 2, 30, "Output"]
+Cell[856, 29, 27373, 673, 1114, "Input"],
+Cell[28232, 704, 526, 11, 42, "Output"],
+Cell[28761, 717, 13728, 269, 629, "Output"]
 }, Open  ]],
+Cell[42504, 989, 32477, 689, 1247, "Input"],
 Cell[CellGroupData[{
-Cell[875, 33, 23634, 573, 848, "Input"],
-Cell[24512, 608, 468, 10, 42, "Output"],
-Cell[24983, 620, 14168, 275, 629, "Output"]
-}, Open  ]],
-Cell[39166, 898, 32477, 689, 1247, "Input"]
+Cell[75006, 1682, 861, 25, 107, "Input"],
+Cell[75870, 1709, 212, 4, 325, "Output"],
+Cell[76085, 1715, 262, 6, 75, "Output"]
+}, Open  ]]
 }
 ]
 *)
