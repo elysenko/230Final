@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     38110,        878]
-NotebookOptionsPosition[     37787,        862]
-NotebookOutlinePosition[     38131,        877]
-CellTagsIndexPosition[     38088,        874]
+NotebookDataLength[     71203,       1575]
+NotebookOptionsPosition[     70837,       1558]
+NotebookOutlinePosition[     71181,       1573]
+CellTagsIndexPosition[     71138,       1570]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -621,11 +621,11 @@ Cell[BoxData[
       Hold[
        Spacer[380]], Manipulate`Dump`ThisIsNotAControl}}, Typeset`size$$ = {
     700., {281., 253.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False, $CellContext`v$320$$ = 
-    0, $CellContext`\[Theta]$325$$ = 0, $CellContext`h$326$$ = 
-    0, $CellContext`m$327$$ = 0, $CellContext`g$328$$ = 
-    0, $CellContext`\[Kappa]$329$$ = 0, $CellContext`bs$330$$ = 
-    0, $CellContext`end$331$$ = 0, $CellContext`traj$332$$ = False}, 
+    Typeset`skipInitDone$$ = False, $CellContext`v$617379$$ = 
+    0, $CellContext`\[Theta]$617380$$ = 0, $CellContext`h$617381$$ = 
+    0, $CellContext`m$617382$$ = 0, $CellContext`g$617383$$ = 
+    0, $CellContext`\[Kappa]$617384$$ = 0, $CellContext`bs$617385$$ = 
+    0, $CellContext`end$617386$$ = 0, $CellContext`traj$617387$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`bs$$ = 2, $CellContext`end$$ = 
@@ -633,15 +633,15 @@ Cell[BoxData[
         10, $CellContext`traj$$ = False, $CellContext`v$$ = 
         40, $CellContext`\[Theta]$$ = 45., $CellContext`\[Kappa]$$ = 0}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`v$$, $CellContext`v$320$$, 0], 
-        Hold[$CellContext`\[Theta]$$, $CellContext`\[Theta]$325$$, 0], 
-        Hold[$CellContext`h$$, $CellContext`h$326$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$327$$, 0], 
-        Hold[$CellContext`g$$, $CellContext`g$328$$, 0], 
-        Hold[$CellContext`\[Kappa]$$, $CellContext`\[Kappa]$329$$, 0], 
-        Hold[$CellContext`bs$$, $CellContext`bs$330$$, 0], 
-        Hold[$CellContext`end$$, $CellContext`end$331$$, 0], 
-        Hold[$CellContext`traj$$, $CellContext`traj$332$$, False]}, 
+        Hold[$CellContext`v$$, $CellContext`v$617379$$, 0], 
+        Hold[$CellContext`\[Theta]$$, $CellContext`\[Theta]$617380$$, 0], 
+        Hold[$CellContext`h$$, $CellContext`h$617381$$, 0], 
+        Hold[$CellContext`m$$, $CellContext`m$617382$$, 0], 
+        Hold[$CellContext`g$$, $CellContext`g$617383$$, 0], 
+        Hold[$CellContext`\[Kappa]$$, $CellContext`\[Kappa]$617384$$, 0], 
+        Hold[$CellContext`bs$$, $CellContext`bs$617385$$, 0], 
+        Hold[$CellContext`end$$, $CellContext`end$617386$$, 0], 
+        Hold[$CellContext`traj$$, $CellContext`traj$617387$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -843,12 +843,14 @@ $CellContext`soln$], {
         TrackedSymbols :> {$CellContext`\[Theta]$$, $CellContext`h$$, \
 $CellContext`g$$, $CellContext`\[Kappa]$$, $CellContext`end$$}}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{32780., {393., 399.}},
+     ImageSizeCache->{1133., {296., 302.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
     Initialization:>({{
-        Attributes[Derivative] = {NHoldAll, ReadProtected}}; {$CellContext`tf = 
+        Attributes[Derivative] = {NHoldAll, ReadProtected}, $CellContext`tf = 
+         5.752785858934988, $CellContext`s = {
+          161.08072880179452`, -3.552713678800501*^-15}}; {$CellContext`tf = 
          Infinity}}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -857,11 +859,705 @@ $CellContext`g$$, $CellContext`\[Kappa]$$, $CellContext`end$$}},
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.7316919899341326`*^9}]
-}, Open  ]]
+ CellChangeTimes->{3.7316929996733217`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{
+               RowBox[{
+                RowBox[{
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{" ", 
+                    RowBox[{
+                    RowBox[{"Sun", ":", " ", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"g", ",", "274", ",", "\"\<Gravity\>\""}], "}"}], 
+                    ",", "3", ",", "20", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}]}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+                    "}"}], ",", "0", ",", "1", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], 
+                    "}"}], ",", ".05", ",", "3", ",", ".01", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], 
+                    ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}],
+                     "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}],
+                     ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+                    RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+                    RowBox[{"Spacer", "[", "380", "]"}], ",", 
+                    RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+                    RowBox[{"AutorunSequencing", "\[Rule]", 
+                    RowBox[{"{", "7", "}"}]}], ",", 
+                    RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+                    RowBox[{"Initialization", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+                    RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", 
+                    "end"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Venus", ":", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"g", ",", "8.87", ",", "\"\<Gravity\>\""}], "}"}],
+                     ",", "3", ",", "20", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}]}]}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+                    "}"}], ",", "0", ",", "1", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], 
+                    "}"}], ",", ".05", ",", "3", ",", ".01", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], 
+                    ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}],
+                     "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}],
+                     ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+                    RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+                    RowBox[{"Spacer", "[", "380", "]"}], ",", 
+                    RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+                    RowBox[{"AutorunSequencing", "\[Rule]", 
+                    RowBox[{"{", "7", "}"}]}], ",", 
+                    RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+                    RowBox[{"Initialization", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+                    RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", 
+                    "end"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Mercury", ":", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"g", ",", 
+                    RowBox[{"9.8", "*", ".38"}], ",", "\"\<Gravity\>\""}], 
+                    "}"}], ",", "3", ",", "20", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}]}]}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+                    "}"}], ",", "0", ",", "1", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], 
+                    "}"}], ",", ".05", ",", "3", ",", ".01", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], 
+                    ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}],
+                     "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}],
+                     ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+                    RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+                    RowBox[{"Spacer", "[", "380", "]"}], ",", 
+                    RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+                    RowBox[{"AutorunSequencing", "\[Rule]", 
+                    RowBox[{"{", "7", "}"}]}], ",", 
+                    RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+                    RowBox[{"Initialization", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+                    RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", 
+                    "end"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Earth", ":", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"g", ",", "9.8", ",", "\"\<Gravity\>\""}], "}"}], 
+                    ",", "3", ",", "20", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}]}]}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+                    "}"}], ",", "0", ",", "1", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], 
+                    "}"}], ",", ".05", ",", "3", ",", ".01", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], 
+                    ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}],
+                     "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}],
+                     ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+                    RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+                    RowBox[{"Spacer", "[", "380", "]"}], ",", 
+                    RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+                    RowBox[{"AutorunSequencing", "\[Rule]", 
+                    RowBox[{"{", "7", "}"}]}], ",", 
+                    RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+                    RowBox[{"Initialization", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+                    RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", 
+                    "end"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Mars", ":", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"g", ",", 
+                    RowBox[{"9.8", "*", ".376"}], ",", "\"\<Gravity\>\""}], 
+                    "}"}], ",", "3", ",", "20", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}]}]}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+                    "}"}], ",", "0", ",", "1", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], 
+                    "}"}], ",", ".05", ",", "3", ",", ".01", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], 
+                    ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}],
+                     "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}],
+                     ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+                    RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+                    RowBox[{"Spacer", "[", "380", "]"}], ",", 
+                    RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+                    RowBox[{"AutorunSequencing", "\[Rule]", 
+                    RowBox[{"{", "7", "}"}]}], ",", 
+                    RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+                    RowBox[{"Initialization", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+                    RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", 
+                    "end"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Saturn", ":", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"g", ",", 
+                    RowBox[{"9.8", "*", "1.07"}], ",", "\"\<Gravity\>\""}], 
+                    "}"}], ",", "3", ",", "20", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}]}]}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+                    "}"}], ",", "0", ",", "1", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], 
+                    "}"}], ",", ".05", ",", "3", ",", ".01", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], 
+                    ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}],
+                     "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}],
+                     ",", ".001", ",", 
+                    RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                    RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+                    RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+                    RowBox[{"Spacer", "[", "380", "]"}], ",", 
+                    RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+                    RowBox[{"AutorunSequencing", "\[Rule]", 
+                    RowBox[{"{", "7", "}"}]}], ",", 
+                    RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+                    RowBox[{"Initialization", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+                    RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", 
+                    "end"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{"Jupiter", ":", 
+                   RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"g", ",", 
+                    RowBox[{"9.8", "*", "2.53"}], ",", "\"\<Gravity\>\""}], 
+                    "}"}], ",", "3", ",", "20", ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                    "}"}]}]}], ",", 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{
+                    "\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+                    "}"}], ",", "0", ",", "1", ",", 
+                   RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                  "}"}], ",", 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], 
+                    "}"}], ",", ".05", ",", "3", ",", ".01", ",", 
+                   RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                  "}"}], ",", 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], 
+                   ",", ".001", ",", 
+                   RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                   RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                  "}"}], ",", 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}],
+                     "}"}], ",", 
+                   RowBox[{"{", 
+                    RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}],
+                    ",", ".001", ",", 
+                   RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                   RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+                   RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+                 RowBox[{"Spacer", "[", "380", "]"}], ",", 
+                 RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+                 RowBox[{"AutorunSequencing", "\[Rule]", 
+                  RowBox[{"{", "7", "}"}]}], ",", 
+                 RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+                 RowBox[{"Initialization", "\[RuleDelayed]", 
+                  RowBox[{"{", 
+                   RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+                 RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+                  RowBox[{"{", 
+                   RowBox[{
+                   "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", 
+                    "end"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+               "\[IndentingNewLine]", 
+               RowBox[{"Uranus", ":", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"g", ",", 
+                    RowBox[{"9.8", "*", ".89"}], ",", "\"\<Gravity\>\""}], 
+                   "}"}], ",", "3", ",", "20", ",", 
+                  RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+                 "}"}]}]}], ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{
+                 "\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+                 "}"}], ",", "0", ",", "1", ",", 
+                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}],
+               ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], "}"}], 
+                ",", ".05", ",", "3", ",", ".01", ",", 
+                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}],
+               ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], 
+                ",", ".001", ",", 
+                RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}],
+               ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}], 
+                 "}"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}], 
+                ",", ".001", ",", 
+                RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+                RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+                RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+              RowBox[{"Spacer", "[", "380", "]"}], ",", 
+              RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+              RowBox[{"AutorunSequencing", "\[Rule]", 
+               RowBox[{"{", "7", "}"}]}], ",", 
+              RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+              RowBox[{"Initialization", "\[RuleDelayed]", 
+               RowBox[{"{", 
+                RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+              RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+               RowBox[{"{", 
+                RowBox[{
+                "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", "end"}],
+                 "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+            "\[IndentingNewLine]", 
+            RowBox[{"Neptune", ":", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"g", ",", 
+                 RowBox[{"9.8", "*", "1.14"}], ",", "\"\<Gravity\>\""}], 
+                "}"}], ",", "3", ",", "20", ",", 
+               RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
+              "}"}]}]}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}],
+               "}"}], ",", "0", ",", "1", ",", 
+             RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
+           ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], "}"}], 
+             ",", ".05", ",", "3", ",", ".01", ",", 
+             RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
+           ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], ",", 
+             ".001", ",", 
+             RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+             RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
+           ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}], 
+              "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}], ",", 
+             ".001", ",", 
+             RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+             RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+             RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+           RowBox[{"Spacer", "[", "380", "]"}], ",", 
+           RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+           RowBox[{"AutorunSequencing", "\[Rule]", 
+            RowBox[{"{", "7", "}"}]}], ",", 
+           RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+           RowBox[{"Initialization", "\[RuleDelayed]", 
+            RowBox[{"{", 
+             RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+           RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+            RowBox[{"{", 
+             RowBox[{
+             "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", "end"}], 
+             "}"}]}]}], "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+         RowBox[{"Pluto", ":", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"g", ",", 
+              RowBox[{"9.8", "*", ".067"}], ",", "\"\<Gravity\>\""}], "}"}], 
+            ",", "3", ",", "20", ",", 
+            RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}]}]}],
+         ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+           "}"}], ",", "0", ",", "1", ",", 
+          RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], "}"}], ",", 
+          ".05", ",", "3", ",", ".01", ",", 
+          RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], ",", 
+          ".001", ",", 
+          RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+          RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}], "}"}], 
+          ",", 
+          RowBox[{"{", 
+           RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}], ",", 
+          ".001", ",", 
+          RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+          RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+          RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+        RowBox[{"Spacer", "[", "380", "]"}], ",", 
+        RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+        RowBox[{"AutorunSequencing", "\[Rule]", 
+         RowBox[{"{", "7", "}"}]}], ",", 
+        RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+        RowBox[{"Initialization", "\[RuleDelayed]", 
+         RowBox[{"{", 
+          RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+        RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+         RowBox[{"{", 
+          RowBox[{
+          "\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", "end"}], 
+          "}"}]}]}], "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      "Mount", " ", 
+      RowBox[{"Everest", ":", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"g", ",", "9.77", ",", "\"\<Gravity\>\""}], "}"}], ",", "3",
+          ",", "20", ",", 
+         RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}]}]}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\[Kappa]", ",", "0", ",", "\"\<Drag Coefficient\>\""}], 
+        "}"}], ",", "0", ",", "1", ",", 
+       RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"bs", ",", "2", ",", "\"\<Ball Radius\>\""}], "}"}], ",", 
+       ".05", ",", "3", ",", ".01", ",", 
+       RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"end", ",", ".001", ",", "\"\<Time\>\""}], "}"}], ",", ".001",
+        ",", 
+       RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+       RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"traj", ",", "False", ",", "\"\<Trajectory\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"end", ",", ".001", ",", "\"\<Shoot\>\""}], "}"}], ",", 
+       ".001", ",", 
+       RowBox[{"Dynamic", "[", "tf", "]"}], ",", ".001", ",", 
+       RowBox[{"ControlType", "\[Rule]", "Trigger"}], ",", 
+       RowBox[{"AnimationRate", "\[Rule]", "1"}]}], "}"}], ",", 
+     RowBox[{"Spacer", "[", "380", "]"}], ",", 
+     RowBox[{"SynchronousUpdating", "\[Rule]", "True"}], ",", 
+     RowBox[{"AutorunSequencing", "\[Rule]", 
+      RowBox[{"{", "7", "}"}]}], ",", 
+     RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+     RowBox[{"Initialization", "\[RuleDelayed]", 
+      RowBox[{"{", 
+       RowBox[{"tf", "=", "Infinity"}], "}"}]}], ",", 
+     RowBox[{"TrackedSymbols", "\[RuleDelayed]", 
+      RowBox[{"{", 
+       RowBox[{"\[Theta]", ",", "h", ",", "g", ",", "\[Kappa]", ",", "end"}], 
+       "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.7316933592536635`*^9, 3.7316934089257946`*^9}, {
+  3.731693439313002*^9, 3.731693578783634*^9}, {3.7316936312128844`*^9, 
+  3.731693764340705*^9}, {3.7316938019268684`*^9, 3.7316938029777403`*^9}}]
 },
-WindowSize->{837, 938},
-WindowMargins->{{Automatic, 258}, {-95, Automatic}},
+WindowSize->{1681, 938},
+WindowMargins->{{Automatic, -2}, {-95, Automatic}},
 FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
 ]
@@ -877,12 +1573,11 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 23969, 574, 1152, "Input"],
-Cell[24552, 598, 13219, 261, 842, "Output"]
-}, Open  ]]
+Cell[580, 22, 23969, 574, 487, "Input"],
+Cell[24552, 598, 13395, 263, 648, "Output"]
+}, Open  ]],
+Cell[37962, 864, 32871, 692, 886, "Input"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
